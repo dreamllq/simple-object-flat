@@ -20,7 +20,7 @@
     "dev": "npm run docs:dev",
     "build": "vite build && vue-tsc -p tsconfig-build.json && tsc-alias -p tsconfig-build.json",
     "preview": "vite preview",
-    "postversion": "git push && git push --tags && npm run docs:build && npm run build && npm publish --registry=https://registry.npmjs.org/",
+    "postversion": "git push && git push --tags && npm run build && npm publish --registry=https://registry.npmjs.org/",
     "test": "jest",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
