@@ -1,7 +1,7 @@
 {
   "name": "simple-object-flat",
   "description": "object 扁平化方法",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
